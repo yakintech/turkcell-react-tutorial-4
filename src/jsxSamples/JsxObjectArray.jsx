@@ -17,7 +17,7 @@ function JsxObjectArray() {
                     categoriesData.map(item => <tr>
                         <td>{item.id}</td>
                         <td>{item.name.toUpperCase()}</td>
-                        <td>{item.description}</td>
+                        <td>{item.description?.toLowerCase()}</td>
                     </tr>)
                 }
             </tbody>

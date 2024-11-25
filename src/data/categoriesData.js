@@ -36,7 +36,6 @@ export const categoriesData = [
     },
     {
         "id": 8,
-        "description": "Seaweed and fish",
         "name": "Seafood"
     }
 ]
