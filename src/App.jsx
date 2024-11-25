@@ -1,9 +1,8 @@
-import JsxEvents from "./jsxSamples/JsxEvents";
-import OneWayBinding from "./jsxSamples/OneWayBinding";
+import JsxObjectArray from "./jsxSamples/JsxObjectArray";
 
 function App() {
   return <>
-    <JsxEvents />
+    <JsxObjectArray/>
   </>
 }
 
