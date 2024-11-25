@@ -1,25 +1,25 @@
-import Footer from "./templateSample/Footer";
-import Header from "./templateSample/Header";
-import Navbar from "./templateSample/Navbar";
-import PageContent from "./templateSample/PageContent";
+import { Link, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Blog from "./pages/Blog";
+import Products from "./pages/Products";
+import NotFound from "./pages/NotFound";
 
 function App() {
 
-  let address = {
-    street:"Vişnezade mah.",
-    region:"Beşiktaş",
-    no:11,
-    city:"İstanbul"
-  }
-  const hello = () => {
-    alert("Hi")
-  }
-
-  return <>
-    <Navbar/>
-    <Header/>
-    <PageContent/>
-    <Footer />
+  return <> 
+      <ul style={{display:'flex', justifyContent:'space-between'}}>
+        <li><Link to={"/"}>Home</Link></li>
+        <li><Link to={"/blog"}>Blog</Link></li>
+        <li><Link to={"/products"}>Products</Link></li>
+      </ul>
+      <hr />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="*" element={<NotFound/>} />
+      </Routes>
+      <footer>Footer @2024</footer>
   </>
 }
 
