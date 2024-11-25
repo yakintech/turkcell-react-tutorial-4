@@ -1,4 +1,7 @@
-import UserDetail from "./propSample/UserDetail";
+import Footer from "./templateSample/Footer";
+import Header from "./templateSample/Header";
+import Navbar from "./templateSample/Navbar";
+import PageContent from "./templateSample/PageContent";
 
 function App() {
 
@@ -8,14 +11,15 @@ function App() {
     no:11,
     city:"İstanbul"
   }
-
-
   const hello = () => {
     alert("Hi")
   }
 
   return <>
-    <UserDetail name="Çağatay" surname="Yıldız" age={18} address={address} hello={hello} />
+    <Navbar/>
+    <Header/>
+    <PageContent/>
+    <Footer />
   </>
 }
 

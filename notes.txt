@@ -6,3 +6,16 @@ Arrow Functions
 https://www.w3schools.com/js/js_arrow_function.asp
 https://www.youtube.com/watch?v=h33Srr5J9nY
 
+Html to Jsx
+https://transform.tools/html-to-jsx
+
+JS Destructuring
+https://www.w3schools.com/js/js_destructuring.asp
+
+
+
+Notlar
+Component isimleri BÜYÜK harf olmak zorunda. dosya ismi önemli değil.
+
+
+
