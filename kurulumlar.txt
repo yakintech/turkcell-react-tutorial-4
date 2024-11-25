@@ -1,0 +1,5 @@
+VS Code React Extension
+dsznajder.es7-react-js-snippets
+
+React Developer Tools
+https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
