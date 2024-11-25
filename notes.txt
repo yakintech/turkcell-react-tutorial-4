@@ -1,2 +1,8 @@
 MDN EXPORT Çeşitleri
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+
+
+Arrow Functions
+https://www.w3schools.com/js/js_arrow_function.asp
+https://www.youtube.com/watch?v=h33Srr5J9nY
+
