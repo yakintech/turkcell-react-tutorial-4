@@ -25,5 +25,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spre
 Notlar
 Component isimleri BÜYÜK harf olmak zorunda. dosya ismi önemli değil.
 
+Too many re-renders. React limits the number of renders to prevent an infinite loop.
+Yukarıdaki hata çok fazla render olmasından kaynaklı. useEffect vb. bir yapıyla giderilebilir. State her değiştiğinde ekran da değişiyorsa fonksiyon yeniden çalışır.
 
 
+
+HTTP Operasyonları için 
+https://www.postman.com/
