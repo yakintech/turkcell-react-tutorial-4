@@ -4,8 +4,13 @@ import Blog from "./pages/Blog";
 import Products from "./pages/Products";
 import NotFound from "./pages/NotFound";
 import Detail from "./pages/Detail";
+import StateIntro from "./stateSample/StateIntro";
+import StateColorSample from "./stateSample/StateColorSample";
+import StateIfElse from "./stateSample/StateIfElse";
 
 function App() {
+
+  return <StateIfElse />
 
   return <> 
       <ul style={{display:'flex', justifyContent:'space-between'}}>
