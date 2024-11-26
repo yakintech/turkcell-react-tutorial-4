@@ -7,10 +7,12 @@ import Detail from "./pages/Detail";
 import StateIntro from "./stateSample/StateIntro";
 import StateColorSample from "./stateSample/StateColorSample";
 import StateIfElse from "./stateSample/StateIfElse";
+import StateArraySample from "./stateSample/StateArraySample";
+import ProductsTable from "./stateSample/ProductsTable";
 
 function App() {
 
-  return <StateIfElse />
+  return <ProductsTable/>
 
   return <> 
       <ul style={{display:'flex', justifyContent:'space-between'}}>

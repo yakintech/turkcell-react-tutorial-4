@@ -12,6 +12,14 @@ https://transform.tools/html-to-jsx
 JS Destructuring
 https://www.w3schools.com/js/js_destructuring.asp
 
+JS Primitive Type and Reference Type
+https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript/
+
+React Update State ( Array )
+https://react.dev/learn/updating-arrays-in-state
+
+Js Spread Syntax
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 
 
 Notlar
