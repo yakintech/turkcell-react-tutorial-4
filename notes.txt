@@ -30,5 +30,11 @@ Yukarıdaki hata çok fazla render olmasından kaynaklı. useEffect vb. bir yap�
 
 
 
+Abort Controller
+https://developer.mozilla.org/en-US/docs/Web/API/AbortController
+https://axios-http.com/docs/cancellation
+
+
+
 HTTP Operasyonları için 
 https://www.postman.com/

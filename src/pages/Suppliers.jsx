@@ -34,6 +34,7 @@ function Suppliers() {
 
 
     return <>
+    <Link to={"/suppliers/add"}>Add New Supplier</Link>
         {
             loading == true ? <h1>loading...</h1> : <>
                 <h1>Length: {suppliers.length}</h1>

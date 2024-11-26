@@ -7,6 +7,7 @@ import Detail from "./pages/Detail";
 import Counter from "./pages/Counter";
 import Suppliers from "./pages/Suppliers";
 import SupplierDetail from "./pages/SupplierDetail";
+import AddSupplier from "./pages/AddSupplier";
 
 function App() {
 
@@ -28,9 +29,10 @@ function App() {
         <Route path="/counter" element={<Counter/>} />
         <Route path="/suppliers" element={<Suppliers/>} />
         <Route path="/suppliers/:id" element={<SupplierDetail/>} />
+        <Route path="/suppliers/add" element={<AddSupplier/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
-      <footer>Footer @2024</footer>
+      <footer style={{position:'fixed', bottom:0, textAlign:'center'}}>Footer @2024</footer>
   </>
 }
 
