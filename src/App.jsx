@@ -8,6 +8,7 @@ import Counter from "./pages/Counter";
 import Suppliers from "./pages/Suppliers";
 import SupplierDetail from "./pages/SupplierDetail";
 import AddSupplier from "./pages/AddSupplier";
+import Categories from "./pages/Categories";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <li><Link to={"/blog"}>Blog</Link></li>
         <li><Link to={"/products"}>Products</Link></li>
         <li><Link to={"/counter"}>Counter</Link></li>
+        <li><Link to={"/categories"}>Categories</Link></li>
       </ul>
       <hr />
       <Routes>
@@ -30,6 +32,8 @@ function App() {
         <Route path="/suppliers" element={<Suppliers/>} />
         <Route path="/suppliers/:id" element={<SupplierDetail/>} />
         <Route path="/suppliers/add" element={<AddSupplier/>} />
+        <Route path="/categories" element={<Categories/>} />
+
         <Route path="*" element={<NotFound/>} />
       </Routes>
       <footer style={{position:'fixed', bottom:0, textAlign:'center'}}>Footer @2024</footer>
